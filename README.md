@@ -31,8 +31,9 @@ WHERE modified = (
 ```
 
 Returns the below results:
+
 |auto_inc|
-|--------|
+| ------ |
 |1       |
 |4       |
 |6       |
@@ -83,7 +84,7 @@ SELECT userid FROM (
 
 Returns the below results:
 |userid|
-|------|
+| ---- |
 |2     |
 
 
