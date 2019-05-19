@@ -83,6 +83,7 @@ SELECT userid FROM (
 ```
 
 Returns the below results:
+
 |userid|
 | ---- |
 |2     |
