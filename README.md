@@ -26,7 +26,7 @@ FROM track_media t1
 WHERE modified = (
 	SELECT MAX(modified)
 	FROM track_media t2
-    WHERE t1.mediaid = t2.mediaid
+	WHERE t1.mediaid = t2.mediaid
 );
 ```
 
